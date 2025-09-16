@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState(null);
 
   // 🔹 Replace with your Render backend URL
-  const API_BASE = "https://your-backend.onrender.com";
+  const API_BASE = "https://ground-water-monitoring.onrender.com";
 
   useEffect(() => {
     axios.get(`${API_BASE}/stations`)
